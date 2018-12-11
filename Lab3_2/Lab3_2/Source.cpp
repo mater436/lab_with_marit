@@ -8,44 +8,34 @@
 #include <set>
 
 
-using Pair_ = std::pair<std::string, int>;
+using Pair_ = std::pair<std::string, std::vector<std::string>>;
 
-std::ostream& operator<<(std::ostream& os, const Pair_ &p) //used by std::copy to copy table to cout
-{
-	os << p.first << ": " << p.second;
-
-	return os;
-}
-
-void display(const Pair_ &s) {
-
-	std::cout << s.first << " " << s.second << "\n";
-
-}
 
 void display_string(const std::string &s) {
 
-	std::cout << s << "\n";
+	std::cout << s << " ";
 }
 
-void is_subject() {
+
+
+void display(Pair_ s) {
+
+	if (s.second.size() > 1) {
+		std::sort(std::begin(s.second), std::end(s.second));
+		std::for_each(std::begin(s.second), std::end(s.second), display_string);
+		std::cout << " --> " << s.second.size() << " words" << "\n";
+	}
 
 }
 
-void check_subject(std::vector<std::string> &V) {
-	std::vector<std::string> S;
 
-	std::copy_if(std::begin(V), std::end(V), std::back_inserter(S), is_subject();
-
-	std::for_each(std::begin(S), std::end(S), display);
-}
-
+// The actual program ~
 int main() {
 
 
-	auto subTable = std::map<std::string, int>{ }; //frequency table
+	auto subTable = std::map<std::string, std::vector<std::string>>{ }; //subject table
 
-	//std::ifstream in{ "uppgift1_kort.txt" };
+	//std::ifstream in{ "uppgift2_kort.txt" };
 	std::ifstream inFile{ "../Code3/uppgift2/uppgift2_kort.txt" };
 
 	if (!inFile.is_open())
@@ -55,32 +45,25 @@ int main() {
 	}
 
 
-	std::string s;
+	std::string s, c;
 	int counter = 0;
-	std::vector<std::string> words;
 
 	while (inFile >> s) {
 
-		//std::transform(std::begin(s), std::end(s), std::begin(s), ::tolower);
-		//std::copy_if(std::begin(s), std::end(s), std::back_inserter(c), not_char);
-
-		words.push_back(s);
+		c = s;
 
 		std::sort(s.begin(), s.end());
 
-		subTable[s]++;
+		subTable[s].push_back(c);
 
 		++counter;
-		//c = "";
 	}
 
-	std::for_each(std::begin(subTable), std::end(subTable), check_subject(words));
+	std::cout << "Number of words = " << counter << "\n\n-- Anagrams --\n";
 
 	std::for_each(std::begin(subTable), std::end(subTable), display);
 
 	std::cout << "\n\n";
-
-	std::for_each(std::begin(words), std::end(words), display_string);
 	
 	return 0;
 }

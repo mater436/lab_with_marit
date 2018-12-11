@@ -1,0 +1,9 @@
+﻿  uppgift3.cpp
+x:\labs\lab_with_marit\lab3_3\lab3_3\uppgift3.cpp(35): error C3867: 'PrettyPrinter::display': non-standard syntax; use '&' to create a pointer to member
+  x:\labs\lab_with_marit\lab3_3\lab3_3\uppgift3.cpp(74): note: see reference to function template instantiation 'void PrettyPrinter::print<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(std::string,T,T)' being compiled
+          with
+          [
+              _Ty=int,
+              T=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+x:\labs\lab_with_marit\lab3_3\lab3_3\uppgift3.cpp(35): error C2672: 'std::for_each': no matching overloaded function found

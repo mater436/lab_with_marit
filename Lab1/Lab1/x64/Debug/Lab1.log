@@ -1,0 +1,5 @@
+﻿  main.cpp
+x:\code1\main.cpp(11): warning C4100: 'argv': unreferenced formal parameter
+x:\code1\main.cpp(11): warning C4100: 'argc': unreferenced formal parameter
+  Lab1.vcxproj -> X:\Lab1\x64\Debug\Lab1.exe
+  Lab1.vcxproj -> X:\Lab1\x64\Debug\Lab1.pdb (Partial PDB)

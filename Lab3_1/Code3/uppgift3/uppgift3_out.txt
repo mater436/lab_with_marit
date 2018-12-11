@@ -1,0 +1,43 @@
+Part 1 & 2
+
+vector v = {
+  1,
+  2,
+  3,
+  4,
+  5
+}
+
+Part 3
+
+vector v = {
+  1,
+  2,
+  3,
+  4,
+  5
+}
+
+Part 4
+
+map m = {
+  { 1, first },
+  { 2, second },
+  { 3, third }
+}
+
+Part 5
+
+Anagram map = {
+  { first, { f, i, r, s, t,  } },
+  { second, { c, d, e, n, o, s,  } }
+}
+
+Anagram map = {
+  { adegimnr, { dreaming, margined, midrange,  } },
+  { aekl, { kale, lake, leak,  } },
+  { aelrs, { earls, lares, laser, rales, reals, seral,  } },
+  { cehiknt, { kitchen, thicken,  } },
+  { ceilmopr, { compiler, complier,  } },
+  { hist, { hist, hits, shit, this,  } }
+}

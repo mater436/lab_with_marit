@@ -1,0 +1,123 @@
+Number of words in the file = 69
+Number unique  words in the file = 56
+
+
+
+Frequency table sorted alphabetically ...
+
+a                       1
+adviser                 1
+afflicted               1
+ago                     1
+around                  1
+as                      2
+ask                     1
+before                  1
+begin                   1
+beyond                  1
+biggest                 2
+borrower                1
+can                     1
+chief                   1
+could                   1
+country's               1
+debt                    1
+decade                  1
+disease                 1
+economic                1
+entered                 1
+eroded                  1
+government              1
+grew                    1
+has                     1
+he                      1
+how                     1
+income                  1
+influence               1
+japan                   1
+lawrence                1
+lies                    1
+long                    1
+more                    1
+mr                      1
+obama’s                 1
+or                      1
+over                    1
+past                    1
+possibility             1
+power                   1
+rapidly                 1
+remain                  1
+same                    1
+states                  1
+suffer                  1
+summers                 1
+than                    1
+that                    4
+the                     7
+to                      2
+united                  1
+used                    1
+world                   1
+world's                 2
+year                    1
+
+
+Frequency table sorted by frequence ...
+
+the                     7
+that                    4
+as                      2
+biggest                 2
+to                      2
+world's                 2
+a                       1
+adviser                 1
+afflicted               1
+ago                     1
+around                  1
+ask                     1
+before                  1
+begin                   1
+beyond                  1
+borrower                1
+can                     1
+chief                   1
+could                   1
+country's               1
+debt                    1
+decade                  1
+disease                 1
+economic                1
+entered                 1
+eroded                  1
+government              1
+grew                    1
+has                     1
+he                      1
+how                     1
+income                  1
+influence               1
+japan                   1
+lawrence                1
+lies                    1
+long                    1
+more                    1
+mr                      1
+obama’s                 1
+or                      1
+over                    1
+past                    1
+possibility             1
+power                   1
+rapidly                 1
+remain                  1
+same                    1
+states                  1
+suffer                  1
+summers                 1
+than                    1
+united                  1
+used                    1
+world                   1
+year                    1
